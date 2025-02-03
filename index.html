@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Animations & JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- 🟢 Banner Animation -->
+    <div id="banner" class="banner hidden">Welcome to our site! Enjoy smooth animations!</div>
+    <button onclick="startBannerAnimation()">Toggle Banner Animation</button>
+
+    <!-- 🟢 Rectangle Area Calculation -->
+    <button onclick="getRectangleArea()">Calculate Rectangle Area</button>
+
+    <!-- 🟢 Scope Demonstration -->
+    <button onclick="scopeExample()">Check Scope Example (Console)</button>
+
+    <!-- 🟢 Modal with Animation -->
+    <button onclick="toggleModal()">Open Modal</button>
+    <div id="modal" class="modal">
+        <p>This is a modal with a fade-in effect!</p>
+        <button onclick="toggleModal()">Close</button>
+    </div>
+
+    <!-- 🟢 Loading Spinner -->
+    <div id="spinner" class="spinner"></div>
+    <button onclick="toggleSpinner()">Toggle Loading Spinner</button>
+
+    <!-- 🟢 Hover Card Effect -->
+    <div class="card">
+        <h2>Hover Over Me!</h2>
+        <p>This card has a smooth hover effect.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
